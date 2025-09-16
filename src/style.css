@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
   --clr-white: oklch(1 0 0);
@@ -11,6 +12,8 @@
 
   --clr-green: oklch(87.1% 0.15 154.449);
   --clr-green-300: oklch(79.2% 0.209 151.711);
+
+  --ff-sans: 'Oswald', sans-serif;
 }
 .clr-white {
   color: var(--clr-white);
@@ -38,4 +41,8 @@
 
 .clr-green-300 {
   color: var(--clr-green-300);
+}
+
+.ff-sans {
+  font-family: var(--ff-sans);
 }
