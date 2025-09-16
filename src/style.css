@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
 
 :root {
   --clr-white: oklch(1 0 0);
@@ -13,33 +12,30 @@
   --clr-green: oklch(87.1% 0.15 154.449);
   --clr-green-300: oklch(79.2% 0.209 151.711);
 }
-
-body {
-  background-color: var(--clr-gray-900);
-  color: var(--clr-white);
-  font-family: 'Arial', sans-serif;
-}
-
-h1, h2, h3, h4 {
+.clr-white {
   color: var(--clr-white);
 }
 
-.text-gray-300 {
+.clr-gray-300 {
   color: var(--clr-gray-300);
 }
 
-.bg-gray-800 {
-  background-color: var(--clr-gray-800);
+.clr-gray-400 {
+  color: var(--clr-gray-400);
 }
 
-.bg-green-300 {
-  background-color: var(--clr-green-300);
+.clr-gray-800 {
+  color: var(--clr-gray-800);
 }
 
-.text-green-300 {
+.clr-gray-900 {
+  background-color: var(--clr-gray-900);
+}
+
+.clr-green {
+  color: var(--clr-green);
+}
+
+.clr-green-300 {
   color: var(--clr-green-300);
-}
-
-button {
-  cursor: pointer;
 }
