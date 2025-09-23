@@ -6,7 +6,7 @@
     <link href="/src/style.css" rel="stylesheet" />
     <title>Portfolio</title>
   </head>
-  <body class="p-8 clr-gray-900 clr-white ff-sans">
+  <body class="clr-gray-900 clr-white ff-sans">
     <header class="text-center py-10">
       <h3 class="text-2xl font-bold">adamkeyes</h3>
       <div class="flex justify-center gap-4 mt-4">
@@ -26,10 +26,10 @@
       <img src="/assets/Profile/image-profile-desktop.webp" alt="Profile Picture" class="mx-auto mt-6 w-55 h-95 object-cover" />
       <h1 class="text-3xl mt-4 font-bold clr-white">Nice to meet you! <br> I'm <span class= "border-b-3 border-green-400"> Adam Keyes.</span></h1>
       <p class="px-37 m-5  clr-white max-w-xl mx-auto">Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
-      <button class="ff-sans text-green-400 border-b-2 p-1 border-green-400 hover:text-green-300">CONTACT ME</button>
+      <button class="ff-sans text-sm text-green-400 border-b-2 p-1 border-green-400 hover:text-green-300">CONTACT ME</button>
     </header>
 
-    <section class="flex flex-col skills text-center py-10 border-t border-gray-400">
+    <section class="p-8 flex flex-col skills text-center py-10 border-t border-gray-400">
       <ul class="gap-6 max-w-xl mx-auto list-none">
         <li class="mb-6">
           <h4 class="text-xl font-bold clr-white">HTML</h4>
@@ -58,76 +58,107 @@
       </ul>
     </section>
     
-    <section class="text-center border-t border-gray-400">
-      <h2 class="text-3xl font-bold clr-white py-10">Projects</h2>
-      <button class="ff-sans text-green-400 border-b-2 p-1 border-green-400 hover:text-green-300">CONTACT ME</button>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
+        <section class="p-8 border-t border-gray-400">
+      <h2 class="text-center text-3xl font-bold clr-white py-4">Projects</h2>
+      <button class="text-center ff-sans text-green-400 text-sm border-b-2 p-1 border-green-400 hover:text-green-300">CONTACT ME</button>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-6">
+        
         <div class="project-card">
           <img src="/assets/Projects/thumbnail-project-1-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
           <h3 class="text-xl font-bold clr-white mt-4">DESIGN PORTFOLIO</h3>
-          <p class="clr-gray-300 text-sm">HTML  CSS</p>
+          <p class="clr-gray-300 text-sm">HTML CSS</p>
           <div class="flex gap-4 mt-2">
             <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
             <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
-          <div class="project-card">
-            <img src="/assets/Projects/thumbnail-project-2-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
-            <h3 class="text-xl font-bold clr-white mt-4">E-LEARNING LANDING PAGE</h3>
-            <p class="clr-gray-300 text-sm">HTML  CSS</p>
-            <div class="flex gap-4 mt-2">
-              <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
-              <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
-            </div>
+        <div class="project-card">
+          <img src="/assets/Projects/thumbnail-project-2-small.webp" alt="E-Learning" class="w-full h-auto object-cover" />
+          <h3 class="text-xl font-bold clr-white mt-4">E-LEARNING LANDING PAGE</h3>
+          <p class="clr-gray-300 text-sm">HTML CSS</p>
+          <div class="flex gap-4 mt-2">
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
           </div>
+        </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
-            <div class="project-card">
-              <img src="/assets/Projects/thumbnail-project-3-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
-              <h3 class="text-xl font-bold clr-white mt-4">TODO WEB APP</h3>
-              <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
-              <div class="flex gap-4 mt-2">
-                <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
-                <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
-              </div>
-            </div>
+        <div class="project-card">
+          <img src="/assets/Projects/thumbnail-project-3-small.webp" alt="Todo App" class="w-full h-auto object-cover" />
+          <h3 class="text-xl font-bold clr-white mt-4">TODO WEB APP</h3>
+          <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
+          <div class="flex gap-4 mt-2">
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
+          </div>
+        </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
-              <div class="project-card">
-                <img src="/assets/Projects/thumbnail-project-4-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
-                <h3 class="text-xl font-bold clr-white mt-4"> ENTERTAINMENT WEB APP</h3>
-                <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
-                <div class="flex gap-4 mt-2">
-                  <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
-                  <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
-                </div>
-              </div>
+        <div class="project-card">
+          <img src="/assets/Projects/thumbnail-project-4-small.webp" alt="Entertainment App" class="w-full h-auto object-cover" />
+          <h3 class="text-xl font-bold clr-white mt-4">ENTERTAINMENT WEB APP</h3>
+          <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
+          <div class="flex gap-4 mt-2">
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
+          </div>
+        </div>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
-                <div class="project-card">
-                  <img src="/assets/Projects/thumbnail-project-5-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
-                  <h3 class="text-xl font-bold clr-white mt-4">MEMORY GAME</h3>
-                  <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
-                  <div class="flex gap-4 mt-2">
-                    <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
-                    <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
-                  </div>
-                </div>
+        <div class="project-card">
+          <img src="/assets/Projects/thumbnail-project-5-small.webp" alt="Memory Game" class="w-full h-auto object-cover" />
+          <h3 class="text-xl font-bold clr-white mt-4">MEMORY GAME</h3>
+          <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
+          <div class="flex gap-4 mt-2">
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
+          </div>
+        </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
-                  <div class="project-card">
-                    <img src="/assets/Projects/thumbnail-project-6-small.webp" alt="Design Portfolio" class="w-full h-auto object-cover" />
-                    <h3 class="text-xl font-bold clr-white mt-4"> ART GALLERY SHOWCASE</h3>
-                    <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
-                    <div class="flex gap-4 mt-2">
-                      <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
-                      <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
-                    </div>
-                  </div>
+        <div class="project-card">
+          <img src="/assets/Projects/thumbnail-project-6-small.webp" alt="Art Gallery" class="w-full h-auto object-cover" />
+          <h3 class="text-xl font-bold clr-white mt-4">ART GALLERY SHOWCASE</h3>
+          <p class="clr-gray-300 text-sm">HTML CSS JAVASCRIPT</p>
+          <div class="flex gap-4 mt-2">
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW PROJECT</button>
+            <button class="text-xs text-green-400 border-b-2 border-green-400 hover:text-green-300">VIEW CODE</button>
+          </div>
+        </div>
 
+      </div>
     </section>
+
+            <footer class="bg-gray-800 p-8">
+              <h2 class="text-left text-4xl font-bold mb-4">Contact</h2>
+              <p class="text-white mb-8 text-left">
+                I would love to hear about your project and <br />
+                how I could help. Please fill in the form, and <br />
+                I'll get back to you as soon as possible.
+              </p>
+
+              <form class="flex flex-col gap-4 max-w-lg">
+                <input type="text" placeholder="NAME" class="border-b border-gray-300 px-3 py-2 bg-transparent text-white" />
+                <input type="email" placeholder="EMAIL" class="border-b border-gray-300 px-3 py-2 bg-transparent text-white" />
+                <textarea placeholder="MESSAGE" class="border-b border-gray-300 px-3 py-2 bg-transparent text-white" rows="4"></textarea>
+              </form>
+
+              <div class="flex justify-end mt-4">
+                <button class="text-sm text-green-400 border-b-2 border-green-400 hover:text-green-300">
+                  SEND MESSAGE
+                </button>
+              </div>
+
+              <div class="flex justify-between items-center mt-8">
+                <h3 class="text-white text-2xl font-bold">adamkeyes</h3>
+                <div class="flex gap-4">
+                  <a href="#"><img src="/assets/Icons/icon-github.svg" alt="GitHub" class="w-6 h-6" /></a>
+                  <a href="#"><img src="/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor" class="w-6 h-6" /></a>
+                  <a href="#"><img src="/assets/Icons/icon-twitter.svg" alt="Twitter" class="w-6 h-6" /></a>
+                  <a href="#"><img src="/assets/Icons/icon-linkedin.svg" alt="LinkedIn" class="w-6 h-6" /></a>
+                </div>
+              </div>
+            </footer>
+
+              </div>
   </body>
 </html>
 
